@@ -11,6 +11,8 @@
 		262E1C1126704BBA0090CAE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262E1C1026704BBA0090CAE5 /* ContentView.swift */; };
 		262E1C1326704BBC0090CAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262E1C1226704BBC0090CAE5 /* Assets.xcassets */; };
 		262E1C1626704BBC0090CAE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262E1C1526704BBC0090CAE5 /* Preview Assets.xcassets */; };
+		262E1C1F267052200090CAE5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262E1C1E267052200090CAE5 /* Contact.swift */; };
+		262E1C22267053E80090CAE5 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262E1C21267053E80090CAE5 /* ContactDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		262E1C1226704BBC0090CAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262E1C1526704BBC0090CAE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		262E1C1726704BBC0090CAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262E1C1E267052200090CAE5 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		262E1C21267053E80090CAE5 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				262E1C0E26704BBA0090CAE5 /* ContactListApp.swift */,
 				262E1C1026704BBA0090CAE5 /* ContentView.swift */,
+				262E1C21267053E80090CAE5 /* ContactDetail.swift */,
+				262E1C1E267052200090CAE5 /* Contact.swift */,
 				262E1C1226704BBC0090CAE5 /* Assets.xcassets */,
 				262E1C1726704BBC0090CAE5 /* Info.plist */,
 				262E1C1426704BBC0090CAE5 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262E1C1F267052200090CAE5 /* Contact.swift in Sources */,
+				262E1C22267053E80090CAE5 /* ContactDetail.swift in Sources */,
 				262E1C1126704BBA0090CAE5 /* ContentView.swift in Sources */,
 				262E1C0F26704BBA0090CAE5 /* ContactListApp.swift in Sources */,
 			);
